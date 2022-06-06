@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FiyatMenuActivity">
+
+    <Button
+        android:id="@+id/cayButton"
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="70dp"
+        android:onClick="cayFiyatButton"
+        android:text="çay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/limonataButton"
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="30dp"
+        android:onClick="limonataFiyatButton"
+        android:text="limonata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cayButton" />
+
+    <Button
+        android:id="@+id/decafButton"
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="30dp"
+        android:onClick="decafFiyatButton"
+        android:text="decaf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/limonataButton" />
+
+    <Button
+        android:id="@+id/sutluButton"
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="30dp"
+        android:onClick="sutluFiyatButton"
+        android:text="sütlü kahve"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/decafButton" />
+
+    <Button
+        android:id="@+id/sadeButton"
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="30dp"
+        android:onClick="sadeFiyatButton"
+        android:text="sade kahve"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sutluButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

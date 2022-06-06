@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KahveCarkiActivity">
+
+    <Button
+        android:id="@+id/kahveCarkiButtonOne"
+        android:layout_width="69dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="70dp"
+        android:onClick="CarkOne"
+        android:text=":)"
+        app:layout_constraintEnd_toStartOf="@+id/kahveCarkiButtonTwo"
+        app:layout_constraintStart_toStartOf="@+id/kahveCarkiTextView"
+        app:layout_constraintTop_toBottomOf="@+id/kahveCarkiTextView" />
+
+    <Button
+        android:id="@+id/kahveCarkiButtonTwo"
+        android:layout_width="69dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="70dp"
+        android:onClick="CarkTwo"
+        android:text=":)"
+        app:layout_constraintEnd_toStartOf="@+id/kahveCarkiButtonThree"
+        app:layout_constraintStart_toEndOf="@+id/kahveCarkiButtonOne"
+        app:layout_constraintTop_toBottomOf="@+id/kahveCarkiTextView"
+        tools:layout_editor_absoluteX="171dp" />
+
+    <Button
+        android:id="@+id/kahveCarkiButtonThree"
+        android:layout_width="69dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="70dp"
+        android:onClick="CarkThree"
+        android:text=":)"
+        app:layout_constraintEnd_toEndOf="@+id/kahveCarkiTextView"
+        app:layout_constraintStart_toEndOf="@+id/kahveCarkiButtonTwo"
+        app:layout_constraintTop_toBottomOf="@+id/kahveCarkiTextView" />
+
+    <TextView
+        android:id="@+id/kahveCarkiTextView"
+        android:layout_width="278dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="50dp"
+        android:text="Şansını dene! Birini seç!"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kazanilanTextView"
+        android:layout_width="257dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kahveCarkiButtonTwo" />
+
+    <Button
+        android:id="@+id/carkMenuButton"
+        android:layout_width="162dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="30dp"
+        android:onClick="carkToMenu"
+        android:text="menu"
+        app:layout_constraintEnd_toEndOf="@+id/kazanilanTextView"
+        app:layout_constraintStart_toStartOf="@+id/kazanilanTextView"
+        app:layout_constraintTop_toBottomOf="@+id/kazanilanTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

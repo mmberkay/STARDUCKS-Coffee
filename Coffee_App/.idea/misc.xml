@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/merma/AndroidStudioProjects/Coffee_App/app/src/main/res/layout/activity_ana_sayfa.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/merma/AndroidStudioProjects/Coffee_App/app/src/main/res/layout/activity_first_menu.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/merma/AndroidStudioProjects/Coffee_App/app/src/main/res/layout/activity_fiyat.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/merma/AndroidStudioProjects/Coffee_App/app/src/main/res/layout/activity_fiyat_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/merma/AndroidStudioProjects/Coffee_App/app/src/main/res/layout/activity_kahve_carki.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/merma/AndroidStudioProjects/Coffee_App/app/src/main/res/layout/activity_main.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/merma/AndroidStudioProjects/Coffee_App/app/src/main/res/layout/activity_menu.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/merma/AndroidStudioProjects/Coffee_App/app/src/main/res/layout/activity_order_list.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/merma/AndroidStudioProjects/Coffee_App/app/src/main/res/layout/activity_siparis_activiy.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/merma/AndroidStudioProjects/Coffee_App/app/src/main/res/layout/recycler_row.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/merma/AndroidStudioProjects/Coffee_App/app/src/main/res/layout/recycler_row_menu.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/merma/AndroidStudioProjects/Coffee_App/app/src/main/res/menu/options_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
